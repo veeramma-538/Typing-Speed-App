@@ -25,12 +25,7 @@ It measures your **Typing Speed (WPM)**, **Accuracy**, and **Time**, and include
 
 ---
 
-## 📸 Demo
 
-![Typing Speed Test Preview](https://raw.githubusercontent.com/your-username/your-repo/main/demo.png)  
-*(Add a screenshot or GIF of your project here)*
-
----
 
 ## 🧠 How to Use
 
@@ -46,8 +41,11 @@ It measures your **Typing Speed (WPM)**, **Accuracy**, and **Time**, and include
 ## 📂 Project Structure
 
 📁 typing-speed-test
+
 ├── index.html
+
 ├── style.css
+
 └── script.js
 
 
@@ -82,5 +80,5 @@ You are free to use, modify, and distribute it.
 
 
 ### 👨‍💻 Author
-**[Your Name](https://github.com/your-username)**  
+**Ede Durga Rajya Veeramma**  
 Made with ❤️ using HTML, CSS & JavaScript.
