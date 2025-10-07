@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Test 🏆</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>⌨️ Typing Speed Test <span class="small">+ Leaderboard 🏆</span></h1>
+
+    <div class="quote-box" id="quoteDisplay"></div>
+
+    <textarea id="quoteInput" placeholder="Start typing here..." autofocus></textarea>
+
+    <div class="stats">
+      <div><strong>⏱ Time:</strong> <span id="timer">0</span> s</div>
+      <div><strong>⚡ WPM:</strong> <span id="wpm">0</span></div>
+      <div><strong>🎯 Accuracy:</strong> <span id="accuracy">100%</span></div>
+    </div>
+
+    <button id="restartBtn">🔄 Restart</button>
+
+    <section class="leaderboard">
+      <h2>🏆 High Scores</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>WPM</th>
+            <th>Accuracy</th>
+            <th>Time (s)</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboardBody"></tbody>
+      </table>
+      <button id="clearScores" class="clear-btn">🗑️ Clear Scores</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
